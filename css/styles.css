@@ -125,7 +125,7 @@ letter-spacing: 0.02em;
 
 /* Team */
 .team {
-  background: #FFFFFF;
+  background-color: #F4F4FD
 }
 
 .team-title {
@@ -140,6 +140,7 @@ text-transform: capitalize;
 .team-list {
 }
 .team-item {
+  background-color: #FFFFFF
 }
 .img {
 }
