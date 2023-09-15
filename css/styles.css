@@ -46,7 +46,7 @@ a{
 .header-menu-item {
 }
 .header-menu-link {
-    color:  #434455;
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -66,6 +66,13 @@ color: #404BBF;
 }
 .contact-list-item {
 }
+
+.contact-list-link{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .contact-list-link:hover,
 .contact-list-link:focus {
 color: #404BBF;
@@ -125,7 +132,7 @@ letter-spacing: 0.02em;
 
 /* Team */
 .team {
-  background-color: #F4F4FD
+  background-color: #F4F4FD;
 }
 
 .team-title {
@@ -140,7 +147,7 @@ text-transform: capitalize;
 .team-list {
 }
 .team-item {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 .img {
 }
