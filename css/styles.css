@@ -14,9 +14,6 @@ a{
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
     white-space: nowrap;
@@ -26,7 +23,7 @@ a{
   }
   /* Header */
   .header-logo{
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -36,7 +33,7 @@ a{
   }
 
   .header-logo-color {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
   .header {
@@ -209,8 +206,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.footer-logo-web {
-  color: var(--IRIS, #4D5AE5);
+.footer-logo-color {
+  color: #f4f4fd
 }
 .footer-text {
   color: var(--CLOUD, #F4F4FD);
