@@ -282,7 +282,7 @@ margin-bottom: 8px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-bottom: 32px;
+padding-bottom: 32px;
 }
 
 /* Footer */
@@ -310,4 +310,5 @@ margin-bottom: 17.5px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+max-width: 264px;
 }
