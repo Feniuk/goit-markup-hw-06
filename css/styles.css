@@ -57,8 +57,6 @@ a{
 }
 
   .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 .header-navigation {
@@ -86,6 +84,7 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .header-menu-link:hover,
@@ -109,6 +108,8 @@ color: #404BBF;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 
 .contact-list-link:hover,
@@ -229,7 +230,6 @@ background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .img {
-  margin-bottom: 32px;
 }
 
 .taste-subtitle {
@@ -247,7 +247,6 @@ text-align: center;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-bottom: 32px;
 }
 
 .first-pic-name{
@@ -283,14 +282,12 @@ margin-bottom: 72px;
   row-gap: 48px;
 }
 .portfolio-item {
-  text-align: center;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #FFF);
   width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-img {
-  margin-bottom: 32px;
 }
 .porfolio-subtitle {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -306,7 +303,6 @@ margin-bottom: 8px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding-bottom: 32px;
 }
 
 /* Footer */
