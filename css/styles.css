@@ -281,6 +281,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .first-pic-name{
   padding: 32px 0;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .taste-subtitle {
@@ -309,6 +311,7 @@ margin-bottom: 8px;
 .team-icon-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .team-icon-item {
   width: 40px;
@@ -330,7 +333,8 @@ margin-bottom: 8px;
 
 .team-icon-link:hover,
 .team-icon-link:focus{
-  background-color: #31D0AA;
+  /* background-color: #31D0AA; */
+  background-color: #404bbf
 }
 
 /* Porfolio */
