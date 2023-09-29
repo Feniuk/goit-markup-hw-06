@@ -368,6 +368,7 @@ margin-bottom: 72px;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #FFF);
   width: calc((100% - 24px * 2) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover{
@@ -375,7 +376,7 @@ margin-bottom: 72px;
 }
 
 .portfolio-item:hover .porfolio-text-wrap{
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-cover-wrap{
