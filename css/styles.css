@@ -383,10 +383,6 @@ margin-bottom: 72px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .cover-container:hover{
-  transform: translateY(0%);
-} */
-
 .portfolio-cover-wrap-container{
     position: relative;
     overflow: hidden;
@@ -419,10 +415,7 @@ margin-bottom: 72px;
   position: absolute;
   height: 100%;
   top: 0;
-  padding-top: 40px;
-  padding-bottom: 164px;
-  padding-right: 32px;
-  padding-left: 32px;
+  padding: 40px 32px;
   background: var(--IRIS, #4D5AE5);
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
