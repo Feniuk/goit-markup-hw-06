@@ -387,7 +387,7 @@ margin-bottom: 72px;
   transform: translateY(0%);
 } */
 
-.portfolio-cover-wrap{
+.portfolio-cover-wrap-container{
     position: relative;
     overflow: hidden;
 }
