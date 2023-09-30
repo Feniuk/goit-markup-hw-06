@@ -383,7 +383,9 @@ margin-bottom: 72px;
   transform: translateY(0%);
 }
 
-/* .cover-container */
+.cover-container{
+  transform: translateY(0%);
+}
 
 .portfolio-cover-wrap{
     position: relative;
