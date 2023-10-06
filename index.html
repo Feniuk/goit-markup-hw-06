@@ -369,6 +369,15 @@
               </li>
             </ul>
           </div>
+          <div class="footer-wrapper">
+            <p class="wrapper-text">Subscribe</p>
+            <form class="footer-form">
+              <!-- <label for="email"> -->
+                <input type="email" name="email" placeholder="E-mail" class="footer-input">
+              <!-- </label> -->
+              <button type="submit" class="footer-form-button">Subscribe</button>
+            </form>
+          </div>
         </div>
       </footer>
       <div class="backdrop">
@@ -410,6 +419,18 @@
             <div class="modal-field">
               <label for="user-text" class="modal-label">Comment</label>
               <textarea name="user-text" id="user-text" class="modal-textarea" placeholder="Text input"></textarea>
+            </div>
+            <div class="modal-check-field">
+            <input class="modal-check visually-hidden" type="checkbox" name="terms" id="terms" required>
+            <label class="check-text" for="terms">
+            <span class="check-text-span">
+                <svg class="check-text-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp;
+              <a href="">Privacy Policy</a>
+            </label>
             </div>
             <button type="submit" class="modal-form-button">Send</button>
           </form>
