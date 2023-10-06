@@ -667,6 +667,7 @@ margin-bottom: 16px;
 
 .modal-field{
   margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .modal-label{
@@ -736,6 +737,10 @@ margin-bottom: 16px;
   fill: #4D5AE5;
 }
 
+.modal-field-cpmment{
+  margin-bottom: 16px;
+}
+
 .modal-textarea{
   width: 100%;
   height: 120px;
@@ -783,13 +788,12 @@ margin-bottom: 16px;
 }
 
 .check-text-span{
-  display: block;
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.40);
   border-radius: 2px;
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
