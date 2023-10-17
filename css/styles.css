@@ -609,6 +609,12 @@ letter-spacing: 0.02em;
   /* padding: 100px 0; */
   padding: 96px 0;
 }
+
+.logo-paragraph{
+  /* margin-left: 120px; */
+  margin-left: 0;
+}
+
 .footer-logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -621,20 +627,24 @@ letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 .footer-logo-color {
-  color: #f4f4fd
+  color: #f4f4fd;
 }
 .footer-text {
   color: var(--CLOUD, #F4F4FD);
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* max-width: 264px; */
+  width: 288px;
+  text-align: center;
 }
 
 .footer-container{
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
 }
 
 .logo-paragraph{
@@ -704,7 +714,8 @@ margin-bottom: 16px;
 .footer-form{
   display: flex;
   flex-wrap: wrap;
-  /* df and flex-wrap werent here */
+  justify-content: center;
+  /* df and flex-wrap jcc werent here */
   gap: 24px;
 }
 
