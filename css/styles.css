@@ -610,11 +610,6 @@ letter-spacing: 0.02em;
   padding: 96px 0;
 }
 
-.logo-paragraph{
-  /* margin-left: 120px; */
-  margin-left: 0;
-}
-
 .footer-logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -634,7 +629,6 @@ letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* max-width: 264px; */
   width: 288px;
   text-align: center;
 }
@@ -648,11 +642,12 @@ letter-spacing: 0.02em;
 }
 
 .logo-paragraph{
-  margin-right: 120px;
+  /* margin-left: 120px; */
 }
 
 .social-media{
-  margin: 72px 0; 
+  margin-top: 72px; 
+  margin-bottom: 72px;
   /* delet this!!!!!!!!!!!!!!! */
 }
 
@@ -723,7 +718,6 @@ margin-bottom: 16px;
 }
 
 .footer-input{
-  /* width: 264px; */
   width: 288px;
   height: 40px;
   border-radius: 4px;
@@ -1101,6 +1095,15 @@ margin-bottom: 16px;
     width: 408px;
     min-height: 584px;
   }
+  .footer-text{
+    max-width: 264px;
+    text-align: left;
+    margin-right: 24px;
+  }
+  .footer-container{
+    display: inline-flex;
+    text-align: left;
+  }
 }
 @media screen and (min-width: 1158px){
   .container{
@@ -1189,5 +1192,29 @@ margin-bottom: 16px;
   .modal{
     width: 408px;
     min-height: 584px;
+  }
+  .footer{
+    padding: 100px 0;
+  }
+  .footer-text{
+    max-width: 264px;
+    text-align: left;
+    margin-right: 105px;
+  }
+  .footer-container{
+    display: flex;
+    text-align: left;
+  }
+  .social-media{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 65px;
+  }
+  .footer-form{
+    display: flex;
+    flex-wrap: none;
+    justify-content: none;
+    /* df and flex-wrap jcc werent here */
+    gap: 24px;
   }
 }
