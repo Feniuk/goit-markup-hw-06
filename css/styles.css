@@ -90,7 +90,6 @@ a{
   display: block;
   align-items: center;
   justify-content: center;
-  background-color: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
@@ -327,7 +326,7 @@ color: #404BBF;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx){
   .hero{
-    background: var(--NAVY-BLUE, #2E2F42);
+    background-color: var(--NAVY-BLUE, #2E2F42);
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)
@@ -980,6 +979,7 @@ margin-bottom: 16px;
 }
 
 .check-text{
+  display: flex;
   color: var(--LIGHT-SLATE, #8E8F99);
   font-size: 12px;
   line-height: 1.17;
@@ -1052,7 +1052,7 @@ margin-bottom: 16px;
   (min-resolution: 192dpi),
   (min-resolution: 2dppx){
   .hero{
-    background: var(--NAVY-BLUE, #2E2F42);
+    background-color: var(--NAVY-BLUE, #2E2F42);
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)
@@ -1082,9 +1082,6 @@ margin-bottom: 16px;
   }
   .best-sides-subtitle{
     text-align: left;
-  }
-  .best-sides-text{
-    font-weight: 400;
   }
   .team-list{
     gap: 64px 24px;
@@ -1200,6 +1197,9 @@ margin-bottom: 16px;
     font-size: 20px;
     font-weight: 500;
     /* text-align: left; */
+  }
+  .best-sides-text{
+    font-weight: 400;
   }
   .team{
     padding-top: 120px;
